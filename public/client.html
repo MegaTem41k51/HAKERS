@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Подключение к поддержке</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Удалённая поддержка</h1>
+
+    <p>
+      Выберите, чем хотите поделиться с оператором.
+    </p>
+
+    <div class="buttons">
+      <button id="camera">
+        Поделиться камерой
+      </button>
+
+      <button id="screen">
+        Поделиться экраном
+      </button>
+    </div>
+
+    <video id="preview" autoplay muted playsinline></video>
+
+    <button id="stop" hidden>
+      Завершить передачу
+    </button>
+
+    <p id="status"></p>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
